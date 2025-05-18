@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأسئلة الشائعة</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="inde.css">
+    
+<!--- for scrool fade-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!--- end for scrool fade-->
+</head>
+<body>
+
+
+  <!-- start whatsup button-->
+       <!-- زر الفقاعة -->
+       <div class="whatsapp-chat">
+        <div class="chat-toggle" onclick="toggleChat()">
+          <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="واتساب">
+        </div>
+      
+        <!-- نافذة الدردشة -->
+        <div class="chat-box" id="chatBox">
+          <div class="chat-header">
+            <span>مرحبا بك 👋</span>
+            <span class="close-btn" onclick="toggleChat()">×</span>
+          </div>
+          <div class="chat-body">
+            <p>كيف يمكننا مساعدتك؟</p>
+            <a href="https://wa.me/962797868142" target="_blank" class="chat-btn">راسلنا على واتساب</a>
+          </div>
+        </div>
+      </div>
+      
+          
+            <script>
+              function toggleChat() {
+                const chatBox = document.getElementById('chatBox');
+                chatBox.style.display = chatBox.style.display === 'flex' ? 'none' : 'flex';
+              }
+            </script>
+            
+            
+             <!-- end whats -->
+               <!-- for scrool animation -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+     <!-- end the scrool -->
+
+      <!-- header -->
+      <a href="index.html#start"  class="start-button">ابدأ نجاحك الآن</a>
+
+      <div class="offer-bar">🎁 احصل على خصم 10% لفترة محدودة – <a href="index.html#start" style="color: white; text-decoration: underline;">اضغط الآن</a></div>
+      <header>
+        <nav class="bg-[#3ecced] border-gray-200 py-2.5" style="background-color: #3b5a5b;">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <a href="#" class="flex items-center">
+                   <img src="Asset4.png" width="50px" alt="">
+                </a>
+                <div class="flex items-center lg:order-2">
+                    <div class="hidden mt-2 mr-4 sm:inline-block">
+                        <span></span>
+                    </div>
+    
+                    <a href="index.html#start"
+                        class="text-white bg-[#3ecced] hover:bg-[#3b5a5b] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 focus:outline-none transition-colors duration-300" style="padding-left: 30px;padding-right: 30px;">
+                        ابدأ
+                    </a>
+                    
+                    <button data-collapse-toggle="mobile-menu-2" type="button"
+                        class="inline-flex items-center p-2 ml-1 text-white rounded-lg lg:hidden hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                        aria-controls="mobile-menu-2" aria-expanded="true">
+                        <span class="sr-only">افتح القائمة</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="index.html" class="block py-2 pl-3 pr-4 text-white rounded lg:p-0 hover:text-[#3b5a5b] transition-colors duration-300">الرئيسية</a>
+                        </li>
+                        <li>
+                          <a href="pricesUp.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:text-[#3b5a5b] lg:border-0 lg:p-0 transition-colors duration-300"> لماذا نحن</a>
+                        </li>
+                        <li>
+                            <a href="AboutUs.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:text-[#3b5a5b] lg:border-0 lg:p-0 transition-colors duration-300"> اراء العملاء</a>
+                        </li>
+                        <li>
+                            <a href="prices.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:text-[#3b5a5b] lg:border-0 lg:p-0 transition-colors duration-300">الحلول والأسعار</a>
+                        </li>
+                        <li>
+                          <a href="howWepBlusHelpU.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:text-[#3b5a5b] lg:border-0 lg:p-0 transition-colors duration-300">الاسئلة الشائعة</a>
+                        </li>
+                        <li>
+                        <a href="contactUs.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:text-[#3b5a5b] lg:border-0 lg:p-0 transition-colors duration-300"> اطلب الآن</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+    </header>
+
+    <!-- end header -->
+
+    <br><br><br><br><br>
+    <section id="howtohelppage"> 
+        <div class="area">
+            <ul class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+
+
+          <div id="left">
+
+
+          </div>
+          <div id="right">
+
+          </div>
+
+    </section>
+    
+
+    <div
+    class="relative w-full bg-white px-6 pt-10 pb-8 mt-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-2xl sm:rounded-lg sm:px-10">
+    <div class="mx-auto px-5">
+        <div class="flex flex-col items-center">
+            <h2 class="mt-5 text-center text-3xl font-bold tracking-tight md:text-5xl" style="color: #3b5a5b;">الأسئلة الشائعة</h2>
+            <p class="mt-3 text-lg text-neutral-500 md:text-xl" style="color: #3b5a5b;">بعض الأسئلة الشائعة
+
+            </p>
+        </div>
+        <div class="mx-auto mt-8 grid max-w-xl divide-y divide-neutral-200">
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل الموقع سيكون ملكي بالكامل؟</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;">نعم، الموقع سيكون ملكك 100%، مع كل الحقوق والصلاحيات الكاملة لإدارته كما تشاء.
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;">هل يمكنني التعديل على المتجر بنفسي لاحقًا؟</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;">بكل سهولة! نقوم بتسليمك لوحة تحكم بسيطة وسهلة الاستخدام، تتيح لك تعديل المحتوى وإضافة التحديثات وقتما تشاء دون الحاجة لأي خبرة تقنية.
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;">هل يوجد عمولة على المبيعات؟</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;">حسب بوابة الدفع الي تختارها
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل المحتوى النصي والصور من عندكم؟</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;">نعم، نحن نعتني بكل شيء! نصمم لك محتوى احترافي وصور جذابة تعبر عن هويتك وتخاطب جمهورك بشكل فعّال.
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل يشترط وجود سجل تجاري لشراء متجر والاستفادة من خدماتكم؟</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> لا , لا يشترط وجود سجل تجاري
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل اقدر اخصص رابط المتجر والنطاق؟</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> نعم , بالتأكيد تقدر تخصص رابط للمتجر والنطاق
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل يمكن إضافة لغتين أو أكثر في موقعي؟</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> نعم , بالتأكيد تقدر تضيف اكثر من لغة للمتجر و الموقع
+                    </p>
+                </details>
+            </div>
+        
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> كم يستغرق تنفيذ الموقع؟</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> نحرص على تسليم موقعك بأعلى جودة وفي أقصر وقت ممكن. عادةً يستغرق التنفيذ من 3 إلى 4 أيام عمل، حسب تفاصيل المشروع، لنضمن أن يظهر موقعك بأفضل صورة ويعكس احترافيتك من أول نظرة.
+                    </p>
+                </details>
+            </div>
+
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> ما هو السعر النهائي وهل هناك رسوم خفية؟</span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> لا، السعر ثابت كما في الباقة المعلنة تماماً، ولا توجد أي رسوم خفية إضافية.
+
+
+                    </p>
+                </details>
+            </div>
+
+
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل أستطيع الدفع على دفعات؟
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> حالياً لا تتوفر لدينا خدمة الدفع بالتقسيط، ويكون الدفع كاملًا
+                    </p>
+                </details>
+            </div>
+
+
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل توجد رسوم سنوية بعد انتهاء السنة الأولى؟
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> لا على الإطلاق، لا توجد أي رسوم سنوية بعد السنة الأولى.
+
+
+                    </p>
+                </details>
+            </div>
+
+
+
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل أستطيع ترقية باقتي لاحقًا؟
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> بالتأكيد، يمكنك ترقية الباقة في أي وقت بما يناسب توسع متجرك واحتياجاتك.
+
+
+                </details>
+            </div>
+
+
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل الموقع متجاوب مع الجوال والأجهزة المختلفة؟
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> نعم، نضمن لك تجربة تصفح سلسة واحترافية على كل الأجهزة والشاشات.
+
+
+                    </p>
+                </details>
+            </div>
+
+
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل الموقع محمي ضد الاختراق والفيروسات؟
+
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> نعم، نعتمد أعلى معايير الأمان والتحديث المستمر لضمان حماية كاملة لموقعك.
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل سيكون موقعي سريع التحميل؟
+
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> بالتأكيد، نستخدم تقنيات تحسين الأداء لنمنح زوارك سرعة تحميل فائقة.
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> ماذا يحدث إذا واجهت مشكلة في المستقبل؟
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> أرسل لنا أي استفسار أو تفاصيل للمشكلة في أي وقت، وفريقنا سيتولى حلها بسرعة واحتراف.
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل تقدمون خدمة تحديث وصيانة للموقع؟
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> نعم، باقات النمو الرقمي تتضمن خدمة التحديث والصيانة الدورية لضمان استقرار موقعك.
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل تساعدونني في التسويق للموقع؟
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> بالتأكيد، باقة التسويق الداخلي مصممة لزيادة فرص الشراء لكل زائر يدخل موقعك.
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> هل تشمل الباقة استضافة ودومين؟
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> نعم، جميع الباقات تأتي مع استضافة مجانية، فيما لا تشمل الباقة الذكية الدومين.
+                    </p>
+                </details>
+            </div>
+            <div class="py-5">
+                <details class="group">
+                    <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span style="color: #3b5a5b;"> ماذا يحدث بعد انتهاء فترة الاستضافة المجانية؟
+                        </span>
+                        <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600" style="color: #3b5a5b;"> نتواصل معك قبل نهاية الفترة المجانية لترتيب التجديد أو اختيار الخطة المناسبة دون انقطاع.
+                    </p>
+                </details>
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </div>
+    </div>
+</div>
+    
+     <!-- strat do u have any question ?? -->
+  <div style="background-color: #3eceed; height: 300px; "> 
+    <div style="font-family: 'Tajawal', sans-serif; background-color: #3eceed; text-align: center; direction: rtl; margin: 0; padding: 0;">
+    
+        <section style="background-color: #3b5a5b; color: white; padding: 40px; max-width: 900px; margin: 50px auto; border-radius: 20px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);">
+            <span style="display: inline-block; background-color: #3eceed; padding: 6px 14px; font-size: 14px; border-radius: 20px; margin-bottom: 15px;">فريقنا يتواصل معك بأسرع وقت</span>
+            <h2 style="font-size: 32px; font-weight: 700;">عندك سؤال؟</h2>
+            <p style="font-size: 16px; margin: 10px 0 20px;">أرسل استفسارك في أي وقت، فريقنا على طول يرد — غالبًا خلال دقائق!            </p>
+            <a href="#" style="display: inline-block; background-color: #3eceed; color: white; padding: 12px 24px; border-radius: 25px; font-size: 16px; text-decoration: none;">تواصل معنا</a>
+        </section>
+    
+      </div>
+    </div>
+    <!-- end do u have any question ?? -->
+     <!-- start footer  --> 
+   <hr style="color: white;">
+   <br><br><br><br><br>
+   <h2 style="display: flex;justify-content: center; align-items: center; color: #3b5a5b;font-size: x-large;"> لا تفوت نجاحك حنا ننتظرك</h2>
+           
+   <br><br>
+   <div style="text-align: center; margin-bottom: 30px;">
+    <a href="index.html#start" style="
+      padding: 10px 30px;
+      color: #3b5a5b;
+      font-size: large;
+      background-color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      display: inline-block;
+    ">استثمر الآن</a>
+  </div>    <!-- end footer  -->
+</body>
+</html>

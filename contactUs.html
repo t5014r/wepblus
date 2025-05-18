@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اطلب الان</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="inde.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!--- for scrool fade-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!--- end for scrool fade-->
+
+</head>
+<body>
+
+  <!-- start whatsup button-->
+       <!-- زر الفقاعة -->
+       <div class="whatsapp-chat">
+        <div class="chat-toggle" onclick="toggleChat()">
+          <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="واتساب">
+        </div>
+      
+        <!-- نافذة الدردشة -->
+        <div class="chat-box" id="chatBox">
+          <div class="chat-header">
+            <span>مرحبا بك 👋</span>
+            <span class="close-btn" onclick="toggleChat()">×</span>
+          </div>
+          <div class="chat-body">
+            <p>كيف يمكننا مساعدتك؟</p>
+            <a href="https://wa.me/962797868142" target="_blank" class="chat-btn">راسلنا على واتساب</a>
+          </div>
+        </div>
+      </div>
+      
+           
+            <script>
+              function toggleChat() {
+                const chatBox = document.getElementById('chatBox');
+                chatBox.style.display = chatBox.style.display === 'flex' ? 'none' : 'flex';
+              }
+            </script>
+            
+            
+             <!-- end whats -->
+
+    <!-- header -->
+    <a href="index.html#start"  class="start-button">ابدأ نجاحك الآن</a>
+
+    <div class="offer-bar">🎁 احصل على خصم 10% لفترة محدودة – <a href="index.html#start" style="color: white; text-decoration: underline;">اضغط الآن</a></div>
+    <header>
+      <nav class="bg-[#3ecced] border-gray-200 py-2.5" style="background-color: #3b5a5b;">
+          <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+              <a href="#" class="flex items-center">
+                 <img src="Asset4.png" width="50px" alt="">
+              </a>
+              <div class="flex items-center lg:order-2">
+                  <div class="hidden mt-2 mr-4 sm:inline-block">
+                      <span></span>
+                  </div>
+  
+                  <a href="index.html#start"
+                      class="text-white bg-[#3ecced] hover:bg-[#3b5a5b] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 focus:outline-none transition-colors duration-300" style="padding-left: 30px;padding-right: 30px;">
+                      ابدأ
+                  </a>
+                  
+                  <button data-collapse-toggle="mobile-menu-2" type="button"
+                      class="inline-flex items-center p-2 ml-1 text-white rounded-lg lg:hidden hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                      aria-controls="mobile-menu-2" aria-expanded="true">
+                      <span class="sr-only">افتح القائمة</span>
+                      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                              clip-rule="evenodd"></path>
+                      </svg>
+                  </button>
+              </div>
+              <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                  <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                      <li>
+                          <a href="index.html" class="block py-2 pl-3 pr-4 text-white rounded lg:p-0 hover:text-[#3b5a5b] transition-colors duration-300">الرئيسية</a>
+                      </li>
+                      <li>
+                        <a href="pricesUp.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:text-[#3b5a5b] lg:border-0 lg:p-0 transition-colors duration-300"> لماذا نحن</a>
+                      </li>
+                      <li>
+                          <a href="AboutUs.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:text-[#3b5a5b] lg:border-0 lg:p-0 transition-colors duration-300"> اراء العملاء</a>
+                      </li>
+                      <li>
+                          <a href="prices.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:text-[#3b5a5b] lg:border-0 lg:p-0 transition-colors duration-300">الحلول والأسعار</a>
+                      </li>
+                      <li>
+                        <a href="howWepBlusHelpU.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:text-[#3b5a5b] lg:border-0 lg:p-0 transition-colors duration-300">الاسئلة الشائعة</a>
+                      </li>
+                      <li>
+                        <a href="contactUs.html" class="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:text-[#3b5a5b] lg:border-0 lg:p-0 transition-colors duration-300"> اطلب الآن</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  
+      <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+  </header>
+
+    <!-- end header -->
+
+
+    <!-- contact us -->
+
+
+    
+ 
+ 
+    <!-- start contact us -->
+ 
+<form action="https://formsubmit.co/51b07e4b3b0662fd340c2cfddead8a92" method="post"> 
+  <section class="body-font relative bg-gray-900 text-gray-400" style="background-color: #3eceed ; ">
+    <div class="container mx-auto px-5 py-24">
+      <div class="mb-12 flex w-full flex-col text-center">
+        <h1 class="title-font mb-4 text-2xl font-medium text-white sm:text-3xl" style="color: #3b5a5b;" data-aos="fade-up" data-aos-once="true">  اطلب الآن</h1>
+      </div>
+
+      <div class="mx-auto md:w-2/3 lg:w-1/2">
+        <div class="-m-2 flex flex-wrap">
+
+          <!-- Name -->
+          <div class="w-1/2 p-2">
+            <div class="relative" data-aos="fade-up" data-aos-once="true">
+              <input type="text" id="name" name="name" class="peer w-full rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900" placeholder="الأسم" style="background-color: #3b5a5b; color: #ffffff;" />
+              <input type="hidden" name="_captcha" value="false">
+              <label for="name" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500" style="color:white; background-color: #3b5a5b;">الأسم</label>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="w-1/2 p-2">
+            <div class="relative" data-aos="fade-up" data-aos-once="true">
+              <input type="text" id="email" name="email" class="peer w-full rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900" placeholder="البريد (اختياري)" style="background-color: #3b5a5b; color: #ffffff;" />
+              <label for="email" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500" style="color:white; background-color: #3b5a5b;">البريد (اختياري)</label>
+            </div>
+          </div>
+
+          <!-- Phone Number -->
+          <div class="w-1/2 p-2">
+            <div class="relative" data-aos="fade-up" data-aos-once="true">
+              <input type="tel" id="phone" name="phone" class="peer w-full rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900" placeholder="رقم الهاتف" style="background-color: #3b5a5b; color: #ffffff;" />
+              <label for="phone" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500" style="color:white; background-color: #3b5a5b;">رقم الهاتف </label>
+            </div>
+          </div>
+
+          <!-- خطة الخدمة (dropdown) -->
+          <div class="w-1/2 p-2">
+            <div   class="relative" data-aos="fade-up" data-aos-once="true">
+              
+              <select  name="plan" id="plan" class="peer w-full rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900" style="background-color: #3b5a5b; color: #ffffff; padding: 10px;" required>
+                <option value="" disabled selected >اختيار الخطة</option>
+                <option value="الباقة الانطلاق">باقة الانطلاق</option>
+                <option value="الباقة تَوسُّع">باقة  تَوسُّع</option>
+                <option value="الباقة ريادة">باقة ريادة بلس</option>
+                <option value="الباقة الذكية">باقة الذكية</option>
+
+              </select>
+            </div>
+          </div>
+
+          <!-- نوع الخدمة (dropdown) -->
+          <div class="w-1/2 p-2">
+            <div class="relative" data-aos="fade-up" data-aos-once="true">
+              <select  name="service" id="service" class="peer w-full rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900" style="background-color: #3b5a5b; color: #ffffff; padding: 10px;" required>
+                <option style="padding: 150px;" value="" disabled selected>اختيار نوع الخدمة</option>
+                <option value="متجر إلكتروني">متجر إلكتروني</option>
+                <option value="موقع إلكتروني">موقع إلكتروني</option>
+              </select>
+            </div>
+          </div>
+          
+  <!-- نوع المشروع (dropdown) -->
+    
+          <div class="w-1/2 p-2">
+            <div class="relative" data-aos="fade-up" data-aos-once="true">
+              <input type="text" id="typeOf" name="typeOf" class="peer w-full rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900" placeholder="نوع المشروع" style="background-color: #3b5a5b; color: #ffffff;" />
+              <label for="typeOf" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500" style="color:white; background-color: #3b5a5b;">نوع المشروع</label>
+            </div>
+          </div>
+
+
+          <!-- Message -->
+          <div class="mt-4 w-full p-2">
+            <div class="relative" data-aos="fade-up" data-aos-once="true">
+              <textarea id="message" name="message" class="peer h-32 w-full resize-none rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-6 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900" placeholder="Message" style="background-color: #3b5a5b; color: #ffffff;"></textarea>
+              <label for="message" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500" style="color:white; background-color: #3b5a5b;">الرسالة</label>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="w-full p-2" data-aos="fade-up" data-aos-once="true">
+            <button class="mx-auto flex rounded border-0 bg-indigo-500 py-2 px-8 text-lg text-white hover:bg-indigo-600 focus:outline-none" style="background-color: #3b5a5b;">اطلب</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</form>
+
+  
+  
+  
+      <!-- end contact us -->
+  
+   
+ 
+ 
+ 
+     <!-- end contact us -->
+ <!-- socia -->
+
+<div style="background-color: #3eceed;  display: flex;justify-content: center; align-items: center; height: 300px;" id="contactUSh">
+ <div class="flex flex-col bg-gray-100 rounded-3xl px-8 py-4 space-y-4" style="background-color:#3b5a5b; border-radius: 50px; width: 70%;">
+  <h4 class="text-xl font-bold text-gray-700" style="color: white;" data-aos="fade-up"data-aos-once="true">مواقع التواصل لدينا</h4>
+  <div class="w-full h-auto  flex items-center justify-center gap-5 flex-wrap" >
+        <!--Facebook-->
+       <a href="https://www.facebook.com/share/18bGfUdU38/?mibextid=wwXIfr" data-aos="fade-up"data-aos-once="true">
+        <button class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300" style="background-color: #3b5a5b;">
+        <svg class="transition-all duration-300 group-hover:scale-110"
+        xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72" fill="none">
+          <path d="M46.4927 38.6403L47.7973 30.3588H39.7611V24.9759C39.7611 22.7114 40.883 20.4987 44.4706 20.4987H48.1756V13.4465C46.018 13.1028 43.8378 12.9168 41.6527 12.8901C35.0385 12.8901 30.7204 16.8626 30.7204 24.0442V30.3588H23.3887V38.6403H30.7204V58.671H39.7611V38.6403H46.4927Z" fill="#337FFF"/>
+        </svg>
+        </button>
+      </a>
+        <!--Instagram-->
+        <a href="https://www.instagram.com/wepplusworld?igsh=MXVwYmNzeHhnOThneQ%3D%3D         " data-aos="fade-up"data-aos-once="true">
+        <button class="w-10 h-10 flex items-center justify-center group rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300" style="background-color: #3b5a5b;">
+        <svg class="transition-all duration-300 group-hover:scale-110" width="28" height="28" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M27.4456 35.7808C27.4456 31.1786 31.1776 27.4468 35.7826 27.4468C40.3875 27.4468 44.1216 31.1786 44.1216 35.7808C44.1216 40.383 40.3875 44.1148 35.7826 44.1148C31.1776 44.1148 27.4456 40.383 27.4456 35.7808ZM22.9377 35.7808C22.9377 42.8708 28.6883 48.618 35.7826 48.618C42.8768 48.618 48.6275 42.8708 48.6275 35.7808C48.6275 28.6908 42.8768 22.9436 35.7826 22.9436C28.6883 22.9436 22.9377 28.6908 22.9377 35.7808ZM46.1342 22.4346C46.1339 23.0279 46.3098 23.608 46.6394 24.1015C46.9691 24.595 47.4377 24.9797 47.9861 25.2069C48.5346 25.4342 49.1381 25.4939 49.7204 25.3784C50.3028 25.2628 50.8378 24.9773 51.2577 24.5579C51.6777 24.1385 51.9638 23.6041 52.0799 23.0222C52.1959 22.4403 52.1367 21.8371 51.9097 21.2888C51.6828 20.7406 51.2982 20.2719 50.8047 19.942C50.3112 19.6122 49.7309 19.436 49.1372 19.4358H49.136C48.3402 19.4361 47.5771 19.7522 47.0142 20.3144C46.4514 20.8767 46.1349 21.6392 46.1342 22.4346ZM25.6765 56.1302C23.2377 56.0192 21.9121 55.6132 21.0311 55.2702C19.8632 54.8158 19.0299 54.2746 18.1538 53.4002C17.2777 52.5258 16.7354 51.6938 16.2827 50.5266C15.9393 49.6466 15.533 48.3214 15.4222 45.884C15.3009 43.2488 15.2767 42.4572 15.2767 35.781C15.2767 29.1048 15.3029 28.3154 15.4222 25.678C15.5332 23.2406 15.9425 21.918 16.2827 21.0354C16.7374 19.8682 17.2789 19.0354 18.1538 18.1598C19.0287 17.2842 19.8612 16.7422 21.0311 16.2898C21.9117 15.9466 23.2377 15.5406 25.6765 15.4298C28.3133 15.3086 29.1054 15.2844 35.7826 15.2844C42.4598 15.2844 43.2527 15.3106 45.8916 15.4298C48.3305 15.5408 49.6539 15.9498 50.537 16.2898C51.7049 16.7422 52.5382 17.2854 53.4144 18.1598C54.2905 19.0342 54.8308 19.8682 55.2855 21.0354C55.6289 21.9154 56.0351 23.2406 56.146 25.678C56.2673 28.3154 56.2915 29.1048 56.2915 35.781C56.2915 42.4572 56.2673 43.2466 56.146 45.884C56.0349 48.3214 55.6267 49.6462 55.2855 50.5266C54.8308 51.6938 54.2893 52.5266 53.4144 53.4002C52.5394 54.2738 51.7049 54.8158 50.537 55.2702C49.6565 55.6134 48.3305 56.0194 45.8916 56.1302C43.2549 56.2514 42.4628 56.2756 35.7826 56.2756C29.1024 56.2756 28.3125 56.2514 25.6765 56.1302ZM25.4694 10.9322C22.8064 11.0534 20.9867 11.4754 19.3976 12.0934C17.7518 12.7316 16.3585 13.5878 14.9663 14.977C13.5741 16.3662 12.7195 17.7608 12.081 19.4056C11.4626 20.9948 11.0403 22.8124 10.9191 25.4738C10.7958 28.1394 10.7676 28.9916 10.7676 35.7808C10.7676 42.57 10.7958 43.4222 10.9191 46.0878C11.0403 48.7494 11.4626 50.5668 12.081 52.156C12.7195 53.7998 13.5743 55.196 14.9663 56.5846C16.3583 57.9732 17.7518 58.8282 19.3976 59.4682C20.9897 60.0862 22.8064 60.5082 25.4694 60.6294C28.138 60.7506 28.9893 60.7808 35.7826 60.7808C42.5759 60.7808 43.4286 60.7526 46.0958 60.6294C48.759 60.5082 50.5774 60.0862 52.1676 59.4682C53.8124 58.8282 55.2066 57.9738 56.5989 56.5846C57.9911 55.1954 58.8438 53.7998 59.4842 52.156C60.1026 50.5668 60.5268 48.7492 60.6461 46.0878C60.7674 43.4202 60.7956 42.57 60.7956 35.7808C60.7956 28.9916 60.7674 28.1394 60.6461 25.4738C60.5248 22.8122 60.1026 20.9938 59.4842 19.4056C58.8438 17.7618 57.9889 16.3684 56.5989 14.977C55.2088 13.5856 53.8124 12.7316 52.1696 12.0934C50.5775 11.4754 48.7588 11.0514 46.0978 10.9322C43.4306 10.811 42.5779 10.7808 35.7846 10.7808C28.9913 10.7808 28.138 10.809 25.4694 10.9322Z" fill="url(#paint0_radial_7092_54471)"/>
+          <path d="M27.4456 35.7808C27.4456 31.1786 31.1776 27.4468 35.7826 27.4468C40.3875 27.4468 44.1216 31.1786 44.1216 35.7808C44.1216 40.383 40.3875 44.1148 35.7826 44.1148C31.1776 44.1148 27.4456 40.383 27.4456 35.7808ZM22.9377 35.7808C22.9377 42.8708 28.6883 48.618 35.7826 48.618C42.8768 48.618 48.6275 42.8708 48.6275 35.7808C48.6275 28.6908 42.8768 22.9436 35.7826 22.9436C28.6883 22.9436 22.9377 28.6908 22.9377 35.7808ZM46.1342 22.4346C46.1339 23.0279 46.3098 23.608 46.6394 24.1015C46.9691 24.595 47.4377 24.9797 47.9861 25.2069C48.5346 25.4342 49.1381 25.4939 49.7204 25.3784C50.3028 25.2628 50.8378 24.9773 51.2577 24.5579C51.6777 24.1385 51.9638 23.6041 52.0799 23.0222C52.1959 22.4403 52.1367 21.8371 51.9097 21.2888C51.6828 20.7406 51.2982 20.2719 50.8047 19.942C50.3112 19.6122 49.7309 19.436 49.1372 19.4358H49.136C48.3402 19.4361 47.5771 19.7522 47.0142 20.3144C46.4514 20.8767 46.1349 21.6392 46.1342 22.4346ZM25.6765 56.1302C23.2377 56.0192 21.9121 55.6132 21.0311 55.2702C19.8632 54.8158 19.0299 54.2746 18.1538 53.4002C17.2777 52.5258 16.7354 51.6938 16.2827 50.5266C15.9393 49.6466 15.533 48.3214 15.4222 45.884C15.3009 43.2488 15.2767 42.4572 15.2767 35.781C15.2767 29.1048 15.3029 28.3154 15.4222 25.678C15.5332 23.2406 15.9425 21.918 16.2827 21.0354C16.7374 19.8682 17.2789 19.0354 18.1538 18.1598C19.0287 17.2842 19.8612 16.7422 21.0311 16.2898C21.9117 15.9466 23.2377 15.5406 25.6765 15.4298C28.3133 15.3086 29.1054 15.2844 35.7826 15.2844C42.4598 15.2844 43.2527 15.3106 45.8916 15.4298C48.3305 15.5408 49.6539 15.9498 50.537 16.2898C51.7049 16.7422 52.5382 17.2854 53.4144 18.1598C54.2905 19.0342 54.8308 19.8682 55.2855 21.0354C55.6289 21.9154 56.0351 23.2406 56.146 25.678C56.2673 28.3154 56.2915 29.1048 56.2915 35.781C56.2915 42.4572 56.2673 43.2466 56.146 45.884C56.0349 48.3214 55.6267 49.6462 55.2855 50.5266C54.8308 51.6938 54.2893 52.5266 53.4144 53.4002C52.5394 54.2738 51.7049 54.8158 50.537 55.2702C49.6565 55.6134 48.3305 56.0194 45.8916 56.1302C43.2549 56.2514 42.4628 56.2756 35.7826 56.2756C29.1024 56.2756 28.3125 56.2514 25.6765 56.1302ZM25.4694 10.9322C22.8064 11.0534 20.9867 11.4754 19.3976 12.0934C17.7518 12.7316 16.3585 13.5878 14.9663 14.977C13.5741 16.3662 12.7195 17.7608 12.081 19.4056C11.4626 20.9948 11.0403 22.8124 10.9191 25.4738C10.7958 28.1394 10.7676 28.9916 10.7676 35.7808C10.7676 42.57 10.7958 43.4222 10.9191 46.0878C11.0403 48.7494 11.4626 50.5668 12.081 52.156C12.7195 53.7998 13.5743 55.196 14.9663 56.5846C16.3583 57.9732 17.7518 58.8282 19.3976 59.4682C20.9897 60.0862 22.8064 60.5082 25.4694 60.6294C28.138 60.7506 28.9893 60.7808 35.7826 60.7808C42.5759 60.7808 43.4286 60.7526 46.0958 60.6294C48.759 60.5082 50.5774 60.0862 52.1676 59.4682C53.8124 58.8282 55.2066 57.9738 56.5989 56.5846C57.9911 55.1954 58.8438 53.7998 59.4842 52.156C60.1026 50.5668 60.5268 48.7492 60.6461 46.0878C60.7674 43.4202 60.7956 42.57 60.7956 35.7808C60.7956 28.9916 60.7674 28.1394 60.6461 25.4738C60.5248 22.8122 60.1026 20.9938 59.4842 19.4056C58.8438 17.7618 57.9889 16.3684 56.5989 14.977C55.2088 13.5856 53.8124 12.7316 52.1696 12.0934C50.5775 11.4754 48.7588 11.0514 46.0978 10.9322C43.4306 10.811 42.5779 10.7808 35.7846 10.7808C28.9913 10.7808 28.138 10.809 25.4694 10.9322Z" fill="url(#paint1_radial_7092_54471)"/>
+          <defs>
+          <radialGradient id="paint0_radial_7092_54471" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(17.4144 61.017) scale(65.31 65.2708)">
+          <stop offset="0.09" stop-color="#FA8F21"/>
+          <stop offset="0.78" stop-color="#D82D7E"/>
+          </radialGradient>
+          <radialGradient id="paint1_radial_7092_54471" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(41.1086 63.257) scale(51.4733 51.4424)">
+          <stop offset="0.64" stop-color="#8C3AAA" stop-opacity="0"/>
+          <stop offset="1" stop-color="#8C3AAA"/>
+          </radialGradient>
+          </defs>
+          </svg>
+        </a>
+        </button>
+        
+       <br>
+        <!--Whatsapp-->
+        <a href="https://wa.me/962797868142" data-aos="fade-up"data-aos-once="true">
+        <button class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300" style="background-color: #3b5a5b;">
+        <svg class="transition-all duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 71 72" fill="none">
+        <path d="M12.5762 56.8405L15.8608 44.6381C13.2118 39.8847 12.3702 34.3378 13.4904 29.0154C14.6106 23.693 17.6176 18.952 21.9594 15.6624C26.3012 12.3729 31.6867 10.7554 37.1276 11.1068C42.5685 11.4582 47.6999 13.755 51.5802 17.5756C55.4604 21.3962 57.8292 26.4844 58.2519 31.9065C58.6746 37.3286 57.1228 42.7208 53.8813 47.0938C50.6399 51.4668 45.9261 54.5271 40.605 55.7133C35.284 56.8994 29.7125 56.1318 24.9131 53.5513L12.5762 56.8405ZM25.508 48.985L26.2709 49.4365C29.7473 51.4918 33.8076 52.3423 37.8191 51.8555C41.8306 51.3687 45.5681 49.5719 48.4489 46.7452C51.3298 43.9185 53.1923 40.2206 53.7463 36.2279C54.3002 32.2351 53.5143 28.1717 51.5113 24.6709C49.5082 21.1701 46.4003 18.4285 42.6721 16.8734C38.9438 15.3184 34.8045 15.0372 30.8993 16.0736C26.994 17.11 23.5422 19.4059 21.0817 22.6035C18.6212 25.801 17.2903 29.7206 17.2963 33.7514C17.293 37.0937 18.2197 40.3712 19.9732 43.2192L20.4516 44.0061L18.6153 50.8167L25.508 48.985Z" fill="#00D95F"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M44.0259 36.8847C43.5787 36.5249 43.0549 36.2716 42.4947 36.1442C41.9344 36.0168 41.3524 36.0186 40.793 36.1495C39.9524 36.4977 39.4093 37.8134 38.8661 38.4713C38.7516 38.629 38.5833 38.7396 38.3928 38.7823C38.2024 38.8251 38.0028 38.797 37.8316 38.7034C34.7543 37.5012 32.1748 35.2965 30.5122 32.4475C30.3704 32.2697 30.3033 32.044 30.325 31.8178C30.3467 31.5916 30.4555 31.3827 30.6286 31.235C31.2344 30.6368 31.6791 29.8959 31.9218 29.0809C31.9756 28.1818 31.7691 27.2863 31.3269 26.5011C30.985 25.4002 30.3344 24.42 29.4518 23.6762C28.9966 23.472 28.4919 23.4036 27.9985 23.4791C27.5052 23.5546 27.0443 23.7709 26.6715 24.1019C26.0242 24.6589 25.5104 25.3537 25.168 26.135C24.8256 26.9163 24.6632 27.7643 24.6929 28.6165C24.6949 29.0951 24.7557 29.5716 24.8739 30.0354C25.1742 31.1497 25.636 32.2144 26.2447 33.1956C26.6839 33.9473 27.163 34.6749 27.6801 35.3755C29.3607 37.6767 31.4732 39.6305 33.9003 41.1284C35.1183 41.8897 36.42 42.5086 37.7799 42.973C39.1924 43.6117 40.752 43.8568 42.2931 43.6824C43.1711 43.5499 44.003 43.2041 44.7156 42.6755C45.4281 42.1469 45.9995 41.4518 46.3795 40.6512C46.6028 40.1675 46.6705 39.6269 46.5735 39.1033C46.3407 38.0327 44.9053 37.4007 44.0259 36.8847Z" fill="#00D95F"/>
+        </svg>
+        </button>
+      </a>
+       <br>
+        <!--Messenger-->
+        <a href="https://www.facebook.com/share/18bGfUdU38/?mibextid=wwXIfr" data-aos="fade-up"data-aos-once="true">
+        <button class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300" style="background-color: #3b5a5b;">
+        <svg class="rounded-md transition-all duration-300 group-hover:scale-110" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72" fill="none">
+        <path d="M35.9042 13C23.0034 13 13 22.4537 13 35.2171C13 41.8936 15.737 47.6655 20.1919 51.6508C20.5641 51.9829 20.7931 52.4525 20.8046 52.9563L20.9306 57.0333C20.9397 57.3333 21.0225 57.6264 21.1714 57.8869C21.3204 58.1474 21.5311 58.3674 21.785 58.5274C22.0389 58.6874 22.3282 58.7826 22.6275 58.8047C22.9268 58.8267 23.227 58.7749 23.5016 58.6538L28.048 56.6496C28.4317 56.4779 28.8669 56.4492 29.2734 56.558C31.3634 57.1306 33.5851 57.4398 35.9042 57.4398C48.805 57.4398 58.8084 47.9861 58.8084 35.2228C58.8084 22.4594 48.805 13 35.9042 13Z" fill="url(#paint0_radial_7092_54580)"/>
+        <path d="M22.1502 41.7161L28.8783 31.0428C29.1314 30.6409 29.4651 30.2959 29.8583 30.0295C30.2514 29.7631 30.6955 29.5812 31.1626 29.4951C31.6296 29.409 32.1094 29.4206 32.5717 29.5293C33.034 29.638 33.4688 29.8414 33.8485 30.1266L39.2024 34.1406C39.4414 34.3195 39.7322 34.4157 40.0308 34.4147C40.3293 34.4137 40.6194 34.3154 40.8572 34.1348L48.0835 28.6493C49.0455 27.9163 50.3052 29.073 49.6639 30.098L42.93 40.7656C42.6769 41.1674 42.3433 41.5124 41.9501 41.7788C41.5569 42.0452 41.1128 42.2272 40.6458 42.3133C40.1787 42.3994 39.6989 42.3877 39.2366 42.279C38.7743 42.1703 38.3396 41.967 37.9598 41.6818L32.606 37.6678C32.367 37.4889 32.0762 37.3926 31.7776 37.3937C31.479 37.3947 31.1889 37.4929 30.9512 37.6735L23.7249 43.1591C22.7629 43.892 21.5032 42.7411 22.1502 41.7161Z" fill="white"/>
+        <defs>
+          <radialGradient id="paint0_radial_7092_54580" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.6729 58.8084) scale(50.3892 50.3892)">
+            <stop stop-color="#0099FF"/>
+            <stop offset="0.6" stop-color="#A033FF"/>
+            <stop offset="0.9" stop-color="#FF5280"/>
+            <stop offset="1" stop-color="#FF7061"/>
+          </radialGradient>
+        </defs>
+        </svg>
+        </button>
+      </a>
+ 
+        </div>
+  </div>
+</div>
+  <!-- social -->
+    <!-- start footer -->
+
+ <!-- start footer  --> 
+ <hr style="color: white;">
+ <br><br><br><br><br>
+ <h2 style="display: flex;justify-content: center; align-items: center; color: #3b5a5b;font-size: x-large;"> لا تفوت نجاحك حنا ننتظرك</h2>
+         
+ <br><br>
+ <div style="text-align: center; margin-bottom: 30px;">
+  <a href="index.html#start" style="
+    padding: 10px 30px;
+    color: #3b5a5b;
+    font-size: large;
+    background-color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+  ">استثمر الآن</a>
+</div>  <!-- end footer  -->
+    <!-- end start footer -->
+      <!-- for scrool animation -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+ <!-- end the scrool --> 
+</body>
+</html>
